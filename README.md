@@ -1,6 +1,6 @@
 # Weather App
 
-An app that allow a user to search the weather of a city around the world.
+An app that allows users to search the weather of a city around the world.
 
 ![App Image](./src/img/app-image.png)
 
