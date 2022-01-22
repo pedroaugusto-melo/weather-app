@@ -1,0 +1,68 @@
+.City {
+    height: 17rem;
+    width: 60%;
+    max-width: 15rem;
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: 0.5rem;
+    margin-top: 3rem;
+}
+
+@media only screen and (min-width: 770px) {
+    .City {
+        margin: 0;
+    }
+}
+
+.City .CityHeader {
+    height: 6rem;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.CityHeader h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.CityBody {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    padding: 0.4rem 1rem;
+    margin-top: 0.25rem;
+}
+
+.CityBody .Temp {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    margin-right: 1rem;
+    font-size: 1.75rem;
+}
+
+.CityBody .Country {
+    margin-bottom: 0.5rem;
+}
+
+.CityBody .Country h3, h4 {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.CityBody .Weather {
+    display: flex;
+    justify-content: center;
+}
+
+.CityBody .Weather h3{
+    font-family: 'Raleway', sans-serif;
+}
