@@ -38,7 +38,6 @@ function App() {
 
     setCities(prevCities => {
       return [
-        ...prevCities,
         {
           id: generateId(),
           name: cityName,
@@ -47,7 +46,8 @@ function App() {
           icon: cityWeather.current.condition.icon,
           temp: cityWeather.current['temp_c'],
           image: cityImage.urls.thumb
-        }
+        },
+        ...prevCities,
       ];
     });
 
